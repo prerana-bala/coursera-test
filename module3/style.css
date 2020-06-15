@@ -1,0 +1,110 @@
+body {
+  background-color: #f9f2d4;
+}
+h1{
+  color: black;
+  font-family: monospace;
+  font-size: 300%;
+  text-align: center;
+  text-decoration: underline;
+}
+
+h4{
+  border: 1px solid black;
+  width:100px;
+  height:35px;
+  text-align: center;
+  float:right;
+  position:relative;
+  margin-top:10px;
+}
+
+.col-lg-4, .col-md-6, .col-sm-12{
+  float:left;
+}
+
+.inside{
+  background-color: #D0F0C0;
+  padding:10px;
+  padding-top:0px;
+  border: 2px solid black;
+  text-align: justify;
+  margin:5px;
+  width:100%
+}
+
+.container{
+  margin-left: 10px;;
+  margin-right: 10px;;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.navbar{
+  background-color: #f9f2d4;
+
+  overflow: hidden;
+  top:0;
+  position: sticky;
+}
+
+.navbar-brand{
+  font-family: monospace;
+  font-weight: bolder;
+  font-size: 30px;
+  border: 2px solid black;
+  padding:10px;
+  font-size:2.5em;
+}
+
+.navbar a:hover {
+  background: #ddd;
+  color: black;
+}
+
+#div1{
+  background:#FE7F9C;
+}
+
+#div2{
+  background:#FFE8E5;
+}
+#div3{
+  background:#FBBC93;
+}
+
+.row{
+  width:100%;
+  display:table;
+}
+
+p{
+  font-size: 1em;
+}
+
+@media (max-width:767px) {
+  .col-sm-12{
+        width:100%;
+  }
+}
+
+@media (min-width:768px){
+  .col-md-6{
+    width:45%;
+  }
+
+}
+
+@media (min-width:992px) {
+
+}
+
+@media only screen and (min-width : 768px) {
+   .navbar-collapse.custom-menu{
+        display: none!important;
+    }
+    .navbar-toggler-icon{
+      display:none !important;
+      border-color: : #f9f2d4;
+    }
+}
