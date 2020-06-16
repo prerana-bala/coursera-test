@@ -82,6 +82,14 @@ p{
   font-size: 1em;
 }
 
+li{
+  color:black;
+  font-family: monospace;
+  font-size: 20px;
+  text-align: center;
+  text-decoration: none;
+}
+
 @media (max-width:767px) {
   .col-sm-12{
         width:100%;
